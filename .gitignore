@@ -1,0 +1,24 @@
+# Gradle
+.gradle/
+build/
+*.jar
+*.class
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+
+# Fabric
+run/
+remap_cache/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local

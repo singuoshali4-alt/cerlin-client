@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "cerlin-client",
+  "version": "${version}",
+  "name": "Cerlin Client",
+  "description": "A powerful Fabric-based Minecraft 1.21.4 client",
+  "authors": [
+    "singuoshali4-alt"
+  ],
+  "contact": {
+    "homepage": "https://github.com/singuoshali4-alt/cerlin-client",
+    "sources": "https://github.com/singuoshali4-alt/cerlin-client"
+  },
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.cerlin.CerlinClient"
+    ],
+    "client": [
+      "com.cerlin.CerlinClientEvents"
+    ]
+  },
+  "mixins": [
+    "cerlin.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": "${minecraft_version}",
+    "java": ">=21"
+  }
+}
